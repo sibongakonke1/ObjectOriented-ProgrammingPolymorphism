@@ -16,13 +16,13 @@ public class Animal {
 	
 	public static void main (String[] args) {
 		
-		Animal animai;	     //This is the same as Animal animal=new Animal("Spoti"); We just wrote it on different lines
+		Animal animal;	     //This is the same as Animal animal=new Animal("Spoti"); We just wrote it on different lines
 		
-		animai=new Animal("Spoti");
-		animai.makeSound();
+		animal=new Animal("Spoti");
+		animal.makeSound();
 		
-		animai=new Dog("Ranger");
-		animai.makeSound();
+		animal=new Dog("Ranger");
+		animal.makeSound();
 		
 		
 	    
